@@ -18,6 +18,10 @@ activities in the website.
 motivation and inspiration.
 * As a user I want to be able to contact the photographer so that I can ask additional questions.
 
+* As an Owner I want to be able to add a photo so that I can increase my items on the site.
+* As an Owner I want to be able to edit an item so that I can change description or price of a photo.
+* As an Owner I want to be able to delete an item so that I can maintain the website actual.
+
 
 ## Features  
 
