@@ -51,28 +51,18 @@
 
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-dark text-light pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
+            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-center">
+                <a href="{% url 'home' %}" class="nav-link">
                     <h2 class="logo-font text-menu my-0">DEC Photography</h2>
                 </a>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <ul class="list-inline list-unstyled text-center my-0">
-                    <li class="list-inline-item">
-                        <a href="" class="nav-link-menu text-menu">About</a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="" class="nav-link-menu text-menu">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-6 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-menu nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user-circle fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                                <div><i class="fas fa-portrait fa-lg"></i></div>
+                                <p class="my-0">Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -104,6 +94,15 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <div class="row bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
+            </nav>
         </div>
     </header>
 
