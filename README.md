@@ -25,9 +25,9 @@ motivation and inspiration.
 ### Design 
 
 * Color Scheme 
-   * The main navigation menu have dark (black) background and white color text. 
+   * The main navigation menu have dark (black-blue) background and white color text. 
    * The pages content have reverce color scheme using white backgrounds and black text. White is 
-   also one of the best choices when showing photos so all other colors can pop.  
+   also one of the best choices when showing photos so all other colors can pop out.  
 
 * Typography 
    * The fonts used in the project are Kaushan Script for headers and titles, and Kavivanar for 
@@ -62,6 +62,8 @@ motivation and inspiration.
    * Used to add fonts to the project's text content.
 6. Heroku
    * Heroku is the platform where the website is being deployed.
+7. Reduce Images (https://www.reduceimages.com/)
+   * Used to reduce the size of photos. 
 
 
 ## Testing 
