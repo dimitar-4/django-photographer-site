@@ -22,18 +22,20 @@ motivation and inspiration.
 * As an Owner I want to be able to edit an item so that I can change description or price of a photo.
 * As an Owner I want to be able to delete an item so that I can maintain the website actual.
 
+### Design 
 
-## Features  
-
-### Design and Font 
-
-* The color scheme used for the project is focused on providing good contrast, easy on the eyes experience. 
-   * Color 
-   * Color 
-   * Color 
+* Color Scheme 
+   * The main navigation menu have dark (black) background and white color text. 
+   * The pages content have reverce color scheme using white backgrounds and black text. White is 
+   also one of the best choices when showing photos so all other colors can pop.  
 
 * Typography 
-   * The font used is Google Fonts ...
+   * The fonts used in the project are Kaushan Script for headers and titles, and Kavivanar for 
+   other text content. Sans Serif is used as the fallback font in case the font isn't being imported 
+   into the site correctly.
+
+
+## Features 
 
 
 ## Technologies Used
@@ -49,15 +51,15 @@ motivation and inspiration.
 ### Additional
 
 1. Bootstrap
-   * Used to add responsive design and styling to the project.
+   * Used to add responsive design and style to the project.
 2. Git
    * Used for version control by Gitpod's terminal commit to Git and push to GitHub.
 3. GitHub
    * After being pushed from Git the project is stored in GitHub.
 4. Font Awesome
-   * Used to add icons to the project menues.
+   * Used to add icons to the project.
 5. Google Fonts
-   * Used to add font 'Rubik' to the project.
+   * Used to add fonts to the project's text content.
 6. Heroku
    * Heroku is the platform where the website is being deployed.
 
