@@ -1,0 +1,112 @@
+[
+    {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "name": "Curious baby bird",
+      "description": "As I walked around by a river listening to bird songs in a forest south-east from the city of Norrköping, I saw this little fellow watching the horizon from it's tower.",
+      "price": 15,
+      "location": "Sweden",
+      "image": "child-bird.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "name": "Coast town of Ålesund",
+      "description": "This awesome view is at the cost of around 500 stairs. Once at the top the beauty of this place grabs you and can't be forgotten. It's worth every step.",
+      "price": 12,
+      "location": "Norway",
+      "image": "coast-town.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "name": "Rhodope dawn",
+      "description": "The magic exists, and it starts with first light in the warm hug of Rhodope mountain. One look is enough to realise that this place is like a fantasy world that was lost.",
+      "price": 19,
+      "location": "Bulgaria",
+      "image": "dawn.png"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "name": "Covered path",
+      "description": "Walking this path looks and feels like it's taking you straith in a George R.R. Martin's novel world. But don't worry it's in the beautiful Omberg Ekopark.",
+      "price": 16,
+      "location": "Sweden",
+      "image": "forest-path.png"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "name": "Stairs in the wood",
+      "description": "When I saw this place in front of me, I thought the next thing to expect is a group of hobbits may be, or a company of a man, an elf and a dwarf!",
+      "price": 14,
+      "location": "Spain",
+      "image": "forest-stairs.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "name": "Lake view",
+      "description": "The long and sunny summer days are perfect for taking a walk around the countless lakes and see the world in their calm waters.",
+      "price": 11,
+      "location": "Sweden",
+      "image": "lake-view.png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "name": "Peaks in the clouds",
+      "description": "The greatness of this peaks scratching the skies leav a feeling of how small we are in the face of nature's creations.",
+      "price": 18,
+      "location": "Norway",
+      "image": "peaks.png"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "name": "Oldtimer in shape",
+      "description": "Annually in the small town of Finspång can be seen a gathering of well preserve classic american cars and enjoy an atmosphere from decades ago.",
+      "price": 17,
+      "location": "Sweden",
+      "image": "retro-car.png"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "name": "Urban paths",
+      "description": "Making your way in the tide but cosy streets of sunny San Sebastian can be a real pleasure. All you see is fine architecture in many colors.",
+      "price": 13,
+      "location": "Spain",
+      "image": "street.png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "name": "Sunrise in motion",
+      "description": "A beautiful sunrise catched from the cosy front passenger seat at the start of a long-awaited roadtrip always fill the mind with excitement.",
+      "price": 10,
+      "location": "Sweden",
+      "image": "sunrise.png"
+    }
+  }
+]
