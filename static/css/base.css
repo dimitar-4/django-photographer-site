@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #fafafa;
+    color: rgb(10, 10, 10);
+    font-family: 'Kavivanar', sans-serif;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.logo-font {
+    font-family: 'Kaushan Script', sans-serif;
+}
+
+.nav-link-menu {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    transition: 0.5s;
+}
+
+.nav-link-menu:hover {
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* This code is copied from Botique Ado project */
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.text-menu {
+    color: #fafafa;
+}
+
+/* -------------------------------- Media Queries ------------------------------ */
+
+/* This code is copied from Botique Ado project */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
