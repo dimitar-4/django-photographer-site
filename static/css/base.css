@@ -91,6 +91,11 @@ body {
     cursor: pointer;
 }
 
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
 /* -------------------------------- Media Queries ------------------------------ */
 
 /* This code is copied from Botique Ado project */
