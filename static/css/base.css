@@ -12,6 +12,7 @@ body {
     font-family: 'Kaushan Script', sans-serif;
 }
 
+/* Code for the main navbar is copied from Boutique Ado project */
 .nav-link-menu {
     font-size: 1.2rem;
     margin-right: 1rem;
@@ -60,6 +61,7 @@ body {
     color: #fafafa;
 }
 
+/* Code copied from Boutique Ado project */
 .overlay {
     height: 100%;
     width: 100%;
@@ -68,6 +70,25 @@ body {
     position: fixed;
     background: #fafafa;
     z-index: -1;
+}
+
+/* Code copied from Boutique Ado project */
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-button:hover {
+    /* background: #fca90e; */
+    color: #fafafa;
+    background: #04123f;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries ------------------------------ */
