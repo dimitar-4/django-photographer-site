@@ -1,5 +1,4 @@
 # This code is copied from Boutique Ado project
-# from decimal import Decimal
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
@@ -8,7 +7,6 @@ def bag_contents(request):
 
     bag_items = []
     total = 0
-    delivery = 5
     product_count = 0
     bag = request.session.get('bag', {})
 
@@ -21,6 +19,11 @@ def bag_contents(request):
             'quantity': quantity,
             'product': product,
         })
+
+    if total > 0:
+        delivery = 5
+    else:
+        delivery = 0
 
     grand_total = delivery + total
 
