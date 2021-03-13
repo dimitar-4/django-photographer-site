@@ -1,4 +1,5 @@
 # This code is copied from Boutique Ado project
+from decimal import Decimal
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
@@ -21,7 +22,7 @@ def bag_contents(request):
         })
 
     if total > 0:
-        delivery = 5
+        delivery = Decimal(4.99)
     else:
         delivery = 0
 
