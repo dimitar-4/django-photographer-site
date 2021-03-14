@@ -17,13 +17,12 @@ body {
     font-size: 1.2rem;
     margin-right: 1rem;
     transition: 0.2s;
-    letter-spacing: 1px;
 }
 
 .nav-link-menu:hover {
     text-decoration: none;
     color: #fafafa;
-    letter-spacing: normal;
+    letter-spacing: 1px;
 }
 
 .nav-link:hover {
