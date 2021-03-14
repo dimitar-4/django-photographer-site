@@ -1,4 +1,4 @@
-<div class="toast custom-toast rounded-0 border-top-0" data-autohide="false">
+<div class="toast custom-toast rounded border-top-0" data-autohide="false">
     <div class="arrow-up arrow-success"></div>
     <div class="w-100 toast-capper bg-success"></div>
     <div class="toast-header bg-white text-dark">
@@ -8,6 +8,21 @@
         </button>
     </div>
     <div class="toast-body bg-white">
-        {{ message }}        
+        <div class="row">
+            <div class="col">
+                {{ message }}
+                <hr class="mt-1 mb-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a href="{% url 'view_bag' %}" class="btn btn-block rounded bg-dark text-light">
+                    <span><strong>Go To Secure Checkout</strong></span>
+                    <span class="icon">
+                        <i class="fas fa-lock"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
