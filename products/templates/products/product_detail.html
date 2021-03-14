@@ -32,7 +32,7 @@
                         {% csrf_token %}
                         <div class="form-row mt-3">
                             <div class="col-12 text-center mx-auto">
-                                <p class="lead my-auto pr-1 font-weight-bold">Price: {{ product.price }}€</p>
+                                <p class="lead my-auto pr-1 font-weight-bold">{{ product.name }} &nbsp;&nbsp; {{ product.price }}€</p>
                             </div>
                             <div class="col-12 text-center mx-auto quantity">
                                 <p class="my-auto pr-1"><strong>Quantity:</strong></p>
