@@ -75,6 +75,8 @@ ask additional questions.
    * Used to reduce the size of images. 
 8. jQuery
    * Used to handel operations like post actions and mobile version nav-menues.
+9. Stripe
+   * Used to add functionall payment system to the project.
 
 
 ## Testing 
@@ -100,8 +102,8 @@ ask additional questions.
 ### Code
 
 * DEC Photography website is build on the foundations of Boutique Ado project's source code.
-Following almost the same steps of development process like in the learning materials, and 
-further developed to meet the needs of this project.
+The development process follows almost the same steps like in the learning materials for the 
+home, products, bag and checkout apps. They were further developed to meet the needs of this project.
 
 ### Media
 
