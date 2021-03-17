@@ -14,15 +14,17 @@
                 <hr class="mt-1 mb-2">
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <a href="{% url 'view_bag' %}" class="btn btn-block rounded bg-dark text-light">
-                    <span><strong>Go To Secure Checkout</strong></span>
-                    <span class="icon">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                </a>
+        {% if grand_total %}
+            <div class="row">
+                <div class="col">
+                    <a href="{% url 'view_bag' %}" class="btn btn-block rounded bg-dark text-light">
+                        <span><strong>Go To Secure Checkout</strong></span>
+                        <span class="icon">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </a>
+                </div>
             </div>
-        </div>
+        {% endif %}
     </div>
 </div>
