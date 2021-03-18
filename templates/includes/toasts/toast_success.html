@@ -14,7 +14,7 @@
                 <hr class="mt-1 mb-2">
             </div>
         </div>
-        {% if grand_total %}
+        {% if grand_total and not on_profile_page %}
             <div class="row">
                 <div class="col">
                     <a href="{% url 'view_bag' %}" class="btn btn-block rounded bg-dark text-light">
