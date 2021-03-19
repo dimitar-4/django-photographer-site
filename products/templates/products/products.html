@@ -42,7 +42,16 @@
                                 <div class="card-footer pt-0 border-0 text-left bg-transparent">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-center font-weight-bold">{{ product.price }}€</p>
+                                            <p class="lead mb-0 text-center font-weight-bold">
+                                                {{ product.price }}€
+                                                <br>
+                                                {% if request.user.is_superuser %}
+                                                    <small>
+                                                        <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                    </small>
+                                                {% endif %}
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
