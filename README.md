@@ -34,14 +34,14 @@ ask additional questions.
 ### Design 
 
 * Color Scheme 
-   * The main navigation menu have dark (black-blue) background and white color text. 
-   * The pages content have reverce color scheme using white backgrounds and black text. White is 
-   also one of the best choices when showing photos so all other colors can pop out.  
+   * The navigation menu, buttons, text and some cards backgrounds use the Bootstrap's class "dark" (black-blue color). 
+   * White backrounds are used throughout the project. It's basic choice when showing photos so that all other colors can pop out.
+   * Bootstrap's class "light" and color #fafafa (in css files) are used for text color on dark backgrounds.    
 
 * Typography 
-   * The fonts used in the project are Kaushan Script for headers and titles, and Kavivanar for 
-   other text content. Sans Serif is used as the fallback font in case the font isn't being imported 
-   into the site correctly.
+   * Font Kaushan Script is used for headerstitles throughout the project. 
+   * Font Kavivanar is used for the remaining text content in the project. 
+   * Sans Serif is used as the fallback font in case the other fonts arn't being imported into the site correctly.
 
 
 ## Features 
@@ -55,7 +55,7 @@ ask additional questions.
 2. CSS3
 3. JavaScript
 4. Python
-5. Django Framework 
+5. Django Frameworks 
 
 ### Additional
 
@@ -76,7 +76,7 @@ ask additional questions.
 8. jQuery
    * Used to handel operations like post actions and mobile version nav-menues.
 9. Stripe
-   * Used to add functionall payment system to the project.
+   * Used to add functional payment system to the project.
 
 
 ## Testing 
@@ -97,16 +97,23 @@ ask additional questions.
 
 ## Credits
 
-### Content 
+### Text Content
+
+* All text content throughout the website is written by the developer (me).
 
 ### Code
 
-* DEC Photography website is build on the foundations of Boutique Ado project's source code.
+* DEC Photography website is build on the foundations of Boutique Ado project by Code Institute.
 The development process follows almost the same steps like in the learning materials for the 
-home, products, bag and checkout apps. They were further developed to meet the needs of this project.
+home, products, bag, profiles and checkout apps. They were further developed to meet the needs of this project.
 
 ### Media
 
-* Photos used in Gallery (all selling products) are taken by me. 
+* The Home page background image is from [Freepik](https://www.freepik.com/).
+* Photos used in Gallery (all selling products) are taken by the developer (me). 
 
 ### Acknowledgments
+
+* [Akshat Garg](https://github.com/akshatnitd) (Mentor)
+* Code Institute's Tutor Support 
+* Slack Community
