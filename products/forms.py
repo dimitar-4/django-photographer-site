@@ -10,7 +10,3 @@ class ProductForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-
-        self.fields['product'].choices
-        for field in self.fields.items():
-            field.widget.attrs['class'] = 'border-black rounded'
