@@ -1,7 +1,8 @@
 # DEC Photography
 
- Website build to showcase photos made by group of photographers and to provide the user with an option to 
-purchase a print copy of photo for decoration purposes or to support the photographers for their work.     
+ E-commerce website build to showcase photos made by group of travel photographers and provide users with an option to 
+purchase a print copy of a photo for decoration purposes, gifts etc., and also to support the photographers in 
+their future endeavours.     
 
 ## UX
 
@@ -110,7 +111,10 @@ home, products, bag, profiles and checkout apps. They were further developed to 
 ### Media
 
 * The Home page background image is from [Freepik](https://www.freepik.com/).
-* Photos used in Gallery (all selling products) are taken by the developer (me). 
+* Photos used in Gallery (all selling products) are taken by the developer (me).
+* Photographer1 image is downloaded from [NicePNG](https://www.nicepng.com/). 
+* Photographer2 image is downloaded from [Pinterest](https://www.pinterest.com/). 
+* Photographer3 image is downloaded from [pngtree](https://pngtree.com/). 
 
 ### Acknowledgments
 
