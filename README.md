@@ -53,31 +53,36 @@ ask additional questions.
 ### Main
 
 1. HTML5
+   * Used to add structure to the website.
 2. CSS3
+   * Used to add style to the website.
 3. JavaScript
+   * Used to add logic and interactive features.
 4. Python
-5. Django Frameworks 
+   * Used to add backend structure and logic to the project.
+5. Django Frameworks
+   * Used to add Python code packeges.  
 
 ### Additional
 
-1. Bootstrap
-   * Used to add responsive design and style to the project.
-2. Git
-   * Used for version control by Gitpod's terminal commit to Git and push to GitHub.
-3. GitHub
-   * After being pushed from Git the project is stored in GitHub.
-4. Font Awesome
-   * Used to add icons to the project.
+1. Git
+   * Used for version control.
+2. GitHub
+   * Used to create a repository where after being pushed from Git the project is stored.
+3. Bootstrap
+   * Used for styling and add responsive design features to the project.
+4. jQuery
+   * Used to add frontend interactivity.
 5. Google Fonts
    * Used to add fonts to the project's text content.
-6. Heroku
-   * Heroku is the platform where the website is being deployed.
+6. Font Awesome
+   * Used to add icons to the project for better UX.
 7. Reduce Images (https://www.reduceimages.com/)
-   * Used to reduce the size of images. 
-8. jQuery
-   * Used to handel operations like post actions and mobile version nav-menues.
-9. Stripe
-   * Used to add functional payment system to the project.
+   * Used to reduce the size of images and photos in the project. 
+8. Stripe
+   * Used to add and test payment system in the project.
+9. Heroku
+   * The platform where the website is deployed.
 
 
 ## Testing 
