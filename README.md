@@ -120,6 +120,9 @@ ask additional questions.
 The development process follows almost the same steps like in the learning materials for the 
 home, products, bag, profiles and checkout apps. They were further developed to meet the needs of this project.
 
+* The contact app's code was done with the help of [this](https://www.valentinog.com/blog/django-widgets/) 
+and [this](https://www.youtube.com/watch?v=lSgRWA4PMt4&ab_channel=BLearningClub) tutorials.
+
 ### Media
 
 * The Home page background image is from [Freepik](https://www.freepik.com/).
