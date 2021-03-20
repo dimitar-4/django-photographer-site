@@ -61,7 +61,6 @@ body {
     color: #fafafa;
 }
 
-/* Code copied from Boutique Ado project */
 .overlay {
     height: 100%;
     width: 100%;
@@ -72,7 +71,6 @@ body {
     z-index: -1;
 }
 
-/* Code copied from Boutique Ado project */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -82,7 +80,6 @@ body {
 }
 
 .btt-button:hover {
-    /* background: #fca90e; */
     color: #fafafa;
     background: #04123f;
 }
@@ -100,6 +97,18 @@ body {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
+
+/* Photographer images */
+
+.photographer-img {
+    height: 300px;
+    width: auto;
+}
+
+/* .photographer3-img {
+    height: 200px;
+    width: auto;
+} */
 
 /* bootstrap toasts */
 
