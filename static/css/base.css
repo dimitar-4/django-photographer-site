@@ -98,6 +98,31 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* Animation on page load */
+
+.container,
+.container-fluid {
+    animation: pageLoader 1s;
+}
+
+@keyframes pageLoader {
+    from {
+        opacity: 0;
+        transform: rotateX(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/* Background cards */
+
+.bg-style {
+    background: rgba(255, 255, 255, 0.35);
+}
+
 /* Photographer images */
 
 .photographer-img {
@@ -108,7 +133,7 @@ input[name='q']::placeholder {
 .photographer3-img {
     height: 300px;
     width: auto;
-    max-width: 96%;
+    max-width: 98%;
 }
 
 /* bootstrap toasts */
