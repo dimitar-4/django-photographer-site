@@ -13,7 +13,7 @@
     <!-- <div class="overlay"></div> -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center mt-3">
+            <div class="col text-center mt-2">
                 <h2 class="logo-font">Contacts</h2>
                 <hr class="mb-1">
             </div>
@@ -25,22 +25,22 @@
                 <form class="mt-3" method="POST">
                     {% csrf_token %}
                     <div class="form-group col-md-8 col-lg-7 col-xl-5">
-                        <label for="fname">Your Name</label>
+                        <label for="fname"><strong>Your Name</strong></label>
                         <input type="text" name="firstname" id="fname" 
                             class="form-control bg-transparent border-dark border-1" required>
                     </div>
                     <div class="form-group col-md-8 col-lg-7 col-xl-5">
-                        <label for="lname">Your Surname</label>
+                        <label for="lname"><strong>Your Surname</strong></label>
                         <input type="text" name="lastname" id="lname" 
                             class="form-control bg-transparent border-dark border-1" required>
                     </div>
                     <div class="form-group col-md-8 col-lg-7 col-xl-5">
-                        <label for="email">Your Email</label>
+                        <label for="email"><strong>Your Email</strong></label>
                         <input type="email" name="email" id="email" 
                             class="form-control bg-transparent border-dark border-1" required>
                     </div>
                     <div class="form-group col-md-8 col-lg-7 col-xl-5">
-                        <label for="message">What's your message?</label>
+                        <label for="message"><strong>Your Message</strong></label>
                         <textarea class="form-control bg-transparent border-dark border-1"
                              id="message" name="message" rows="4" required>
                         </textarea>
@@ -51,12 +51,12 @@
                     <h4 class="logo-font pr-3">
                         Or find us at
                     </h4>
-                    <p class="bg-style pr-3 rounded">
-                        <i class="fas fa-envelope"></i> decphotography1@gmail.com 
+                    <p class="pr-3">
+                        <span class="bg-style rounded px-2"><i class="fas fa-envelope"></i> decphotography1@gmail.com</span>
                         <br>
-                        <i class="fas fa-mobile"></i> +46(0) 123 45 67 89
+                        <span class="bg-style rounded px-2"><i class="fas fa-mobile"></i> +46(0) 123 45 67 89</span>
                         <br>
-                        <small class="text-muted">Contact via phone is possible Monday - Thursday between 9:00-16:00 CET.</small>
+                        <small class="text-muted bg-style rounded px-2">Contact via phone is possible Monday - Thursday between 9:00-16:00 CET.</small>
                     </p>
                 </div>
             </div>

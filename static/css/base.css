@@ -258,8 +258,13 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 
+    .image-view {
+        height: 350px;
+        width: auto;
+    }
+
     .image-detail {
-        height: 550px;
+        height: 450px;
         width: auto;
     }
 }

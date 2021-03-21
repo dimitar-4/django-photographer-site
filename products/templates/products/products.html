@@ -12,8 +12,8 @@
 {% block content %}
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center mt-3">
-                <h2 class="logo-font">Gallery</h2>
+            <div class="col text-center mt-2">
+                <h2 class="logo-font">Shopping Gallery</h2>
                 <hr class="mb-1">
             </div>
         </div>
@@ -22,43 +22,49 @@
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
                     {% for product in products %}
-                        <div class="col-12">
-                            <div class="card h-100 border-0 bg-style text-center">
+                        <div class="col-lg-12 col-xl-6 my-5">
+                            <div class="card h-100 border-0 bg-style text-center pt-2">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid image-detail" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid image-view" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid image-detail" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="card-img-top img-fluid image-view" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
                                     <h4 class="mb-0">{{ product.name }}</h4>
                                     <p class="mb-0">{{ product.location }}</p>
                                     <p class="mb-0">{{ product.description }}</p>
+                                    <p class="lead mb-0 text-center font-weight-bold">
+                                        {{ product.price }}€
+                                        <br>
+                                        {% if request.user.is_superuser %}
+                                            <small>
+                                                <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                            </small>
+                                        {% endif %}
+                                     </p>
                                 </div>
-                                <div class="card-footer pt-0 border-0 text-left bg-style">
+                                <div class="card-footer pt-0 border-0 bg-tranparent">
                                     <div class="row">
-                                        <div class="col">
-                                            <p class="lead mb-0 text-center font-weight-bold">
-                                                {{ product.price }}€
-                                                <br>
-                                                {% if request.user.is_superuser %}
-                                                    <small>
-                                                        <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                                                    </small>
-                                                {% endif %}
-                                            </p>
+                                        <div class="col text-center">
+                                            <a href="{% url 'product_detail' product.id %}" class="btn btn-dark rounded mt-3">
+                                                <span class="icon">
+                                                    <i class="far fa-eye"></i>
+                                                </span>
+                                                <span class="text-uppercase">View Photo</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mb-5">
+                        <!-- <div class="col-12 mb-5">
                             <hr>
-                        </div>
+                        </div> -->
                     {% endfor %}
                 </div>
             </div>
