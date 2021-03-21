@@ -123,9 +123,11 @@ home, products, bag, profiles and checkout apps. They were further developed to 
 * The contact app's code was done with the help of [this](https://www.valentinog.com/blog/django-widgets/) 
 and [this](https://www.youtube.com/watch?v=lSgRWA4PMt4&ab_channel=BLearningClub) tutorials.
 
+* The CSS animation on page load is from [here](https://www.youtube.com/watch?v=zWB219zf1og&ab_channel=dcode).
+
 ### Media
 
-* The Home page background image is from [Freepik](https://www.freepik.com/).
+* The background image is from [rawpixel](https://www.rawpixel.com/image/539448/premium-photo-image-apartment-backdrop-background).
 * Photos used in Gallery (all selling products) are taken by the developer (me).
 * Photographer1 image is downloaded from [NicePNG](https://www.nicepng.com/). 
 * Photographer2 image is downloaded from [Pinterest](https://www.pinterest.com/). 
