@@ -1,0 +1,1 @@
+web: gunicorn dec_photography.wsgi:application
