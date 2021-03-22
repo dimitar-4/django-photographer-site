@@ -120,7 +120,7 @@ input[name='q']::placeholder {
 /* Background cards */
 
 .bg-style {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.45);
 }
 
 /* Photographer images */
@@ -133,6 +133,7 @@ input[name='q']::placeholder {
 .photographer3-img {
     height: 300px;
     width: auto;
+    object-fit: scale-down;
     max-width: 98%;
 }
 
