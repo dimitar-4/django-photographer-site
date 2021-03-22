@@ -12,32 +12,32 @@ their future endeavours.
 
 #### Visitor/Shopper
 
-* As a first time visitor I want to be able to see photos that I can also purchase.
-* As a visitor I want to be able to see a single photo page and option for full-screen view. 
-* As a shopper I want to be able to see price for every photo and a total for my purchases at 
+1. As a first time visitor I want to visit a website where I can see photos that I can purchase.
+2. As a visitor I want to be able to see a single photo with an option for full-screen view. 
+3. As a shopper I want to be able to see price for every photo and a total for my purchases at 
 any time so I can menage the amount I want to spend.
-* As a shopper I want to be able to select quantity of particular item so I can add more then one to my 
+4. As a shopper I want to be able to select quantity of particular item so I can add more then one to my 
 shopping basket.
-* As a shopper I want to be able to remove items from my shopping basket so I can reduce the 
+5. As a shopper I want to be able to remove items from my shopping basket so I can reduce the 
 cost of my purchase.
-* As a shopper I want to be able to make secure transactions and to feel safe that my personal
+6. As a shopper I want to be able to make secure transactions and to feel safe that my personal
 data is handled securely.
-* As a shopper I want to be able to see conformation for my order after checking out so I know 
+7. As a shopper I want to be able to see conformation for my order after checking out so I know 
 that everything was done correct.
-* As a shopper I want to be able to receive an email conformation so I can keep the details 
+8. As a shopper I want to be able to receive an email conformation so I can keep the details 
 of my purchase.
-* As a user I want to be able to register so that I have my own account and can track my 
+9. As a user I want to be able to register so that I have my own account and can track my 
 orders from the website.
-* As a user I want to be able to read more about the authors/photographers so that I can understand their 
+10. As a user I want to be able to read more about the authors/photographers so that I can understand their 
 motivation and inspiration.
-* As a user I want to be able to contact the photographers so that if I have I can send personal requests or 
+11. As a user I want to be able to contact the photographers so that if I have I can send personal requests or 
 ask additional questions.
 
 #### Owner
 
-* As an Owner I want to be able to add a photo so that I can increase/renew the content of items on the site.
-* As an Owner I want to be able to edit an item so that I can change description or price of a photo.
-* As an Owner I want to be able to delete an item so that I can maintain the website actual and avoid keeping item for very long.
+12. As an Owner I want to be able to add a photo so that I can increase/renew the content of items on the site.
+13. As an Owner I want to be able to edit an item so that I can change description or price of a photo.
+14. As an Owner I want to be able to delete an item so that I can maintain the website actual and avoid keeping item for very long.
 
 ### Design 
 
@@ -139,11 +139,35 @@ ask additional questions.
 
 ### Testing User Stories
 
-### Code
+* First user story is completed by providing on the home page clear understanding of what the website is about and 
+large call to action button that lead the user to his search. Then by opening a photo detail page the user can click a "Add 
+to Basket" button and checkout to complete the purchase.
 
-### Links  
+* Second user story is completed by providing the user with a "View Photo" button in the Gallery page where a single photo 
+detail page is showing and there is an info hint that leads the user to viewing the photo in full screen size in a new window.
 
-### Tested Devices
+* Third user story is completed by providing the user with a price tag bellow every photo in the gallery page and again bellow 
+the photo in the detail page for every gallery item. The second part of this user story is completed by showing all the time the 
+total amount of his basket in the upper right corner of the screen.
+
+* Fourth user story is completed by providing the user with option to change the quantity of how many of this particular item to 
+be added to his shopping basket. The quantity selector is located under the name and price of the photos in their detail pages.
+
+* Fifth user story is completed by providing the user with a trash can icon-button under the total price for every item in the shopping basket
+and by clicking on it the user can remove a particular item from his basket. 
+
+### Links and Buttons
+
+* Internal
+   * All navigation links have been tested in development environment and in the live project 
+   and no errors were found or shown in the console.
+   * All buttons throughout the weblite have been tested in development environment and in the live project 
+   and no errors were found or shown in the console.
+* External 
+   * All social media links have been tested in development environment and in the live project. All working 
+   leading the user to the selected website's home page, because DEC Photography does not have any content elsewhere.
+
+### Responsive Design
 
 ### Problems
 
