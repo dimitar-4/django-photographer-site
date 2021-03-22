@@ -279,3 +279,19 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+}
