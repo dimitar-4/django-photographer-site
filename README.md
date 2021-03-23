@@ -4,7 +4,9 @@ Live link here --> [DEC Photography](https://dec-photography.herokuapp.com/)
 
  E-commerce website build to showcase photos made by group of travel photographers and give users an option to 
 buy a print copy of a photo for decoration purposes, gifts etc., and to support the photographers in 
-their future endeavours.     
+their future endeavours. 
+
+![site-img](testing_images/dec-photo.png)
 
 ## UX
 
@@ -212,7 +214,14 @@ minimum width tested without any issues is 320px.
 * Desktop devices used for tests in production stage:
    * Acer Aspire 5 A515-51G
    * Acer B7 series-B277(Monitor)
-   * Lenovo ThinkPad 20Q6    
+   * Lenovo ThinkPad 20Q6 
+
+* Testing images from mobile device:
+
+![test-image](testing_images/test-samsung-s20fe.png)
+![test-image](testing_images/test-s20-add.png)
+![test-image](testing_images/test-s20-bag.png)
+![test-image](testing_images/test-s20fe.png)
 
 ### Problems
 
@@ -222,11 +231,15 @@ but that didn't fix the problem. Sometimes it shows it in the terminal and becau
 whole project, and the fact that it is not showing this error in production I decided to look further in solving this problem 
 in the near future.
 
+![error-image](testing_images/favicon-error.PNG)
+
 * In development stage after creating the firs Stripe webhook when an order is confirmed it was working the first times I tested it 
 but then after adding the setting for the confirmation emails I started noticing error 400 from the webhook in the terminal saying 
 "Bad Request: checkout/wh/". Again for the limited development time and after testing the webhook without any issues in production 
 I decided to look further in solving this problem in the near future when I have time and better understanding of how this mistake was 
 first made and how to fix it without causing any further problems in the code. 
+
+![error-image](testing_images/wh-error.PNG)
 
 
 ## Deployment
