@@ -133,13 +133,15 @@ ask additional questions.
 11. Amazon Web Services (AWS)
     * Used to host the static and media files for the project.
 12. [Grammar Check](https://www.grammarcheck.net/editor/)
-    * Used to check spelling and grammar to MD files.
+    * Used to check spelling and grammar to README.md file.
 
 ## Testing 
 
 ### Testing User Stories
 
-* First user story is completed by providing on the home page clear understanding of what the website is about and 
+#### User/Shopper
+
+* First user story is completed by opening the home page that gives clear understanding of what the website is about and 
 large call to action button that lead the user to his search. Then by opening a photo detail page the user can click a "Add 
 to Basket" button and checkout to complete the purchase.
 
@@ -156,12 +158,38 @@ be added to his shopping basket. The quantity selector is located under the name
 * Fifth user story is completed by providing the user with a trash can icon-button under the total price for every item in the shopping basket
 and by clicking on it the user can remove a particular item from his basket. 
 
+* The next user story is completed by providing the user with secure payment system from Stripe taking care of all sensitive data 
+that is provided from the user.
+
+* The next user story is completed by providing the user with a detailed order information page after checking out that also can be seen 
+at any time in the user's profile on the website.
+
+* The next user story is completed by sending an email confirmation for the order containing detailed information for the user's purchase, 
+no matter if the user is signed up or does not have register user account.
+
+* The next user story is completed by providing the user with an authentication system that give the user options to register/login/logout an 
+account. See all purchases made in the order history section in the user's profile, and keeping delivery and contact information. 
+
+* The next user story is completed by providing the user with an About page (link located in the navigation menu) which lead the user to more 
+information about what are the main ideas of the website's owners.
+
+* The next user story is completed by providing the user with a Contact page where a contact form is available for the user to send messages 
+as well as additional contacts like direct email and a phone number. The contact form is functional and it sends the user messages to the 
+Administrator.
+   * The massages can be found on the Admin's page, in the "Contacts" section. All messages are stored there so the store owners can read them
+    and reply. 
+
+#### Owner
+
+* These user stories are completed by providing the website's owners with CRUD functionality and the access to add/edit/delete actions are restricted 
+only to users with a superuser status. 
+
 ### Links and Buttons
 
 * Internal
    * All navigation links have been tested in development environment and in the live project 
    and no errors were found or shown in the console.
-   * All buttons throughout the weblite have been tested in development environment and in the live project 
+   * All buttons throughout the website have been tested in development environment and in the live project 
    and no errors were found or shown in the console.
 * External 
    * All social media links have been tested in development environment and in the live project. All working 
@@ -169,7 +197,36 @@ and by clicking on it the user can remove a particular item from his basket.
 
 ### Responsive Design
 
+* The website is tested for responsive design in development stage with the developer tools in the browser and on all 
+provided devices there. No issues were found on medium and larger screens and on mobile small screen devices. The 
+minimum width tested without any issues is 320px.
+
+* In production stage the website is tested on different mobile and desktop devices and no issues were found.
+
+* Mobele devices used for testing in production stage:
+   * Samsung Galaxy S20 FE
+   * Huawei P20 Pro 
+   * Samsung Galaxy A51
+   * Xiomi Note 5
+
+* Desktop devices used for tests in production stage:
+   * Acer Aspire 5 A515-51G
+   * Acer B7 series-B277(Monitor)
+   * Lenovo ThinkPad 20Q6    
+
 ### Problems
+
+* In development stage nearly from the beginning in the terminal when the port 8000 is active there was an error 404 showing 
+about favicon.ico not found. I didn't use a favicon icon at this point but in attempt to fix it I added a favicon icon to the project 
+but that didn't fix the problem. Sometimes it shows it in the terminal and because I had very limited time to develop the 
+whole project, and the fact that it is not showing this error in production I decided to look further in solving this problem 
+in the near future.
+
+* In development stage after creating the firs Stripe webhook when an order is confirmed it was working the first times I tested it 
+but then after adding the setting for the confirmation emails I started noticing error 400 from the webhook in the terminal saying 
+"Bad Request: checkout/wh/". Again for the limited development time and after testing the webhook without any issues in production 
+I decided to look further in solving this problem in the near future when I have time and better understanding of how this mistake was 
+first made and how to fix it without causing any further problems in the code. 
 
 
 ## Deployment
@@ -223,7 +280,11 @@ by adding them to Config Vars in the Settings menu.
 14. Live link here --> [DEC Photography](https://dec-photography.herokuapp.com/).
 
 
+How to clone the project's repository:
 
+* Go to the project's GitHub repo and find a green button "Code". Then from the download menu select "Download ZIP".
+* Another way of cloning the repo is using the following command in your workspace terminal:
+   * git clone https://github.com/dimitar-4/django-photographer-site 
 
 
 ## Credits
